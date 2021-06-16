@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.map-header {
+  background-color: #000;
+  color: #FFF;
+  padding: 5px;
+  margin: auto;
+
+}
+
+.filter-controls {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+select {
+  width: 100%;
+}
+
+#map-container {
+  height: 600px;
+}
+
+/* Station Popup */
+.station-item {
+  margin-bottom: 8px;
+  padding: 4px 0px;
+  border-bottom: solid 2px lightgray;
+  text-align: center;
+}
+
+.station-item-data-container {
+  display: flex;
+}
+
+.station-item-data-label {
+  padding-right: 4px;
+}
+
+.station-item-data-values {
+  text-align: right;
+}
